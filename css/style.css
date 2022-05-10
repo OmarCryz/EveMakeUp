@@ -41,6 +41,12 @@
     font-family: 'EB Garamond', serif;
 }
 
+.etiqueta{
+    text-decoration: none;
+    color: rgb(121, 73, 29 );
+    font-family: 'EB Garamond', serif;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -283,10 +289,6 @@ body{
     padding-bottom: 5%;
 }
 
-.contenedor10{
-
-}
-
 .formulario{
     font-size: 30px;
 }
@@ -467,7 +469,63 @@ body{
     height: 25px;
 }
 
-.img6{
-    width: 25px;
-    height: 25px;
+.contenedor16{
+    margin-top: 4.7rem;
+    background-image: url(../images/utensiliomaquillaje.jpg);
+    height: 25rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.borderbanner{
+    background-image: url(https://cdn-aurora.starofservice.com/static/media/convex-curve.d8b1a2de.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    position: absolute;
+    height: 60px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.contenedor17{
+    margin: auto auto;
+    width: 500px;
+    font-size: 20px;
+    word-wrap: break-word;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'EB Garamond', serif;
+    color: rgb(121, 73, 29 );
+}
+
+.paragraph1{
+    margin-top: 3rem;
+}
+
+.contenedor18{
+    margin-top: 4.7rem;
+    background-image: url(../images/fondomaquillaje.webp);
+}
+
+.labels{
+    font-family: 'EB Garamond', serif;
+    font-weight: 800;
+    font-size: large;
+    color: rgb(255, 255, 255);
+}
+
+.inputs{
+    width: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.encabezado{
+    font-family: 'EB Garamond', serif;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
 }
