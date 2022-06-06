@@ -539,3 +539,16 @@ body{
     font-size: 25px;
     word-wrap: break-word;
 }
+
+@media only screen and (max-width: 600px){
+    .navegator{
+        width: 100%;
+    }
+
+    .lista1{
+        margin-left: 0;
+        font-size: medium;
+        justify-content: space-between;
+        width: 0;
+    }
+}
