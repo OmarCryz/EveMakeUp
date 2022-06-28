@@ -8,6 +8,11 @@
     <title>EveMakeUp | Home</title>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Updock&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
@@ -22,7 +27,7 @@
                 <a href="/index.html" class="etiqueta">
                     <div class="contenedor0">
                         <img src="/images/siluetarostro.png" alt="">
-                        <h4>
+                        <h4 style="margin-top: 0.8rem;">
                             EveMakeUp
                         </h4>
                     </div>
@@ -36,7 +41,7 @@
                             <a href="/aboutus.html" class="we">Nosotros</a>
                         </li>
                         <li>
-                            <a href="/contactus.html" class="contactus">Contactenos</a>
+                            <a href="#contenedor11" class="contactus">Contactenos</a>
                         </li>
                     </ul>
                 </div>
@@ -51,7 +56,7 @@
                     Nuestra prioridad es resaltar su belleza
                 </h3>
             </div>
-            
+
         </div>
     </header>
     <div class="contenedor3">
@@ -116,49 +121,124 @@
     </div>
     <div class="contenedor19">
         <p>
-            Si lo que estás buscando son maquilladores profesionales para el día de tu boda, en el que necesitas que realicen el maquillaje de novia, de invitados o incluso el del novio, dirígete con nosotros para descubrir la amplia gama de servicios que ofrecemos o contacta directamente con nosotros a través del formulario. Estaremos encantados de atenderte.
+            Si lo que estás buscando son maquilladores profesionales para el día de tu boda, en el que necesitas que
+            realicen el maquillaje de novia, de invitados o incluso el del novio, dirígete con nosotros para descubrir
+            la amplia gama de servicios que ofrecemos o contacta directamente con nosotros a través del formulario.
+            Estaremos encantados de atenderte.
         </p>
     </div>
     <div class="contenedor9">
         <div>
             <label class="formulario">
-                Ponte en contacto con nuestros maquilladores
+                Agendá con nuestros maquilladores
             </label>
         </div>
-        <a href="formulario.html" class="referencia">Contactar</a>
+        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Agendar
+        </button>
     </div>
-    <div class="contenedor11">
+    <div class="contenedor11" id="contenedor11">
         <div class="contenedor12">
-            <div>
-                <h4>
-                    Condiciones legales
-                </h4>
-            </div>
-            <div>
-                <label>
-                    Avisos legales y condiciones de uso
-                </label>
-            </div>
-            <div>
-                <label>
-                    Políticas de cookies
-                </label>
-            </div>
-            <div>
-                <label>
-                    Políticas de privacidad
-                </label>
+            <div class="">
+                <div>
+                    <h4>
+                        Contactos
+                    </h4>
+                </div>
+                <div>
+                    <label>
+                        <a><img src="/images/llamada-telefonica.png" class="img5">Teléfono: +507-8482-8728</a>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <a><img src="/images/gmail.png" class="img5">evemakeup76@gmail.com</a>
+                    </label>
+                </div>
+                <div class="redes">
+                    <a href=""><img src="/images/facebook.png"></a>
+                    <a href=""><img src="/images/instagram.png"></a>
+                    <a href=""><img src="/images/twitter.png"></a>
+                </div>
             </div>
         </div>
         <div class="contenedor13">
             <iframe class="maps"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15602.091613078896!2d-86.24070439118806!3d12.144761439316168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f73fddcc57dc68b%3A0x7769ba187ad66bdb!2sBello%20Horizonte%2C%20Managua!5e0!3m2!1ses!2sni!4v1651204772645!5m2!1ses!2sni"
-                allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </div>
     </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Agenda tu cita</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body contenedor18">
+                    <center>
+                        <div>
+                            <form action="">
+                                <h1 class="encabezado">
+                                    Agenda tu cita
+                                </h1>
+                                <label for="" class="labels">
+                                    Nombre
+                                </label><br>
+                                <input type="text" placeholder="Nombre completo" class="inputs"><br>
+                                <label for="" class="labels">
+                                    Celular
+                                </label><br>
+                                <input type="text" placeholder="Celular" class="inputs"><br>
+                                <label for="" class="labels">
+                                    Correo electronico
+                                </label><br>
+                                <input type="text" placeholder="Correo electronico" class="inputs"><br>
+                                <label for="" class="labels">
+                                    Dirección domiciliar
+                                </label><br>
+                                <input type="text" placeholder="Dirección domiciliar" class="inputs"><br>
+                                <label for="" class="labels">
+                                    Tipo de evento
+                                </label><br>
+                                <select class="inputs">
+                                    <option value="Tipo de evento">
+                                        Seleccione un tipo de evento
+                                    </option>
+                                    <option value="Quinceaños">
+                                        Quinceaños
+                                    </option>
+                                    <option value="Bodas">
+                                        Bodas
+                                    </option>
+                                    <option value="Aniversarios">
+                                        Aniversarios
+                                    </option>
+                                    <option value="Fiestas">
+                                        Fiestas
+                                    </option>
+                                    <option value="Concursos">
+                                        Concursos
+                                    </option>
+                                </select><br>
+                                <label for="" class="labels">
+                                    Fecha del evento
+                                </label><br>
+                                <input type="date" placeholder="Fecha del evento" class="inputs"><br>
+                            </form>
+                        </div>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Confirmar</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="js/coding.js"></script>
+    <script src="js/modal.js"></script>
 </body>
 
 </html>
